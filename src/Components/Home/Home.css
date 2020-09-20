@@ -1,0 +1,26 @@
+
+.logo{
+    width: 120.26px;
+    height: 56px;
+    filter: brightness(100);   
+}
+.form-control{
+    background-color: #e9ecef4f;
+}
+.form-inline .form-control{
+    width: 330px;
+}
+
+::-webkit-input-placeholder{
+   color:white !important;
+}
+.button{
+    background-color:#f8a30f;
+}
+.lin{
+    color:white;
+    padding-left:33px;
+}
+.lin:hover{
+    text-decoration:none;
+}

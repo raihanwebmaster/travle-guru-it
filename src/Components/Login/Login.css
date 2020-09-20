@@ -1,0 +1,37 @@
+.tg-signup-login {
+	padding: 30px 0;
+}
+
+.tg-signup-login .tg-form {
+	max-width: 500px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid #ababab;
+	border-radius: 4px;
+	padding: 30px 40px;
+}
+
+.tg-thirdparty-login {
+	text-align: center;
+}
+.tg-thirdparty-login .btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #c7c7c7;
+    border-radius: 57px;
+    width: 461px;
+	margin: 0 auto;
+	height: 51px;
+	text-align: center;
+	padding: 8px;
+	position: relative;
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	justify-items: baseline;
+	margin-top: 20px;
+}

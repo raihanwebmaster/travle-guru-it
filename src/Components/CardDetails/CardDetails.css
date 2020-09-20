@@ -1,0 +1,54 @@
+.cardName{
+    width: 378.53px;
+    height: 116px;
+    left: 135px;
+    top: 236px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 97.6842px;
+    line-height: 117px;
+    color: #FFFFFF;
+}
+.cardDetails{
+    width: 455px;
+    height: 80px;
+    left: 135px;
+    top: 350px;
+    font-style: normal;
+    font-weight: 70;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #FFFFFF;
+
+}
+.booking-edit{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 29px;
+    width: 161px;
+    height: 48px;
+    left: 135px;
+    font-weight: 500;
+    background: #F9A51A;
+    border-radius: 5px;
+}
+.img{
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    fill-opacity: 500;
+
+}
+.text{
+    position: absolute;
+    bottom: 20px;
+    font-weight: 500
+}
+.img:hover{
+    border: 3px solid rgb(250, 144, 56);
+}
+/* .link{
+    text-decoration: none
+} */

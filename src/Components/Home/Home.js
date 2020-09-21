@@ -17,7 +17,7 @@ const Home = () => {
                                 <Form inline>
                                     <FormControl variant='white' type="text" placeholder="Search Your Destination...." className="mr-sm-2 ml-5" />
                                 </Form>
-                                <Link className='ml-5 lin' to="home">News</Link>
+                                <Link className='ml-5 lin' to="/home">News</Link>
                                 <Link className='ml-5 lin' to="destination">Destination</Link>
                                 <Link className='ml-5 lin' to="blog">Blog</Link>
                                 <Link className='ml-5 lin' to="contact">Contact</Link>

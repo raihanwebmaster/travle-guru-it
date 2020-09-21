@@ -9,6 +9,7 @@ import './App.css';
 import DateLine from './Components/DateLine/DateLine';
 import Login from './Components/Login/Login';
 import Main from './Components/Main/Main';
+import PrivateRoute from './Components/Private Route/PrivateRoute';
 import ViewaddressLocation from './Components/ViewaddressLocation/ViewaddressLocation';
 
 export const UserContext = createContext();
@@ -16,8 +17,7 @@ export const UserContext = createContext();
 function App() {
    const [loggedInUser, setLoggedInUser]=useState({});
   return (
-     <UserContext.Provider value={loggedInUser, setLoggedInUser}>
-        {/* <h3> email{loggedInUser.email}</h3> */}
+     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
       <Router>
         <Switch>
            <Route exact path="/">
@@ -32,9 +32,9 @@ function App() {
            <Route  path="/login">
               <Login></Login>
            </Route>
-           <Route  path="/ViewLocation">
+           <PrivateRoute path="/ViewLocation">
               <ViewaddressLocation></ViewaddressLocation>
-           </Route>
+           </PrivateRoute>
         </Switch>
       </Router>
       </UserContext.Provider>
